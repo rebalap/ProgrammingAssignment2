@@ -12,7 +12,7 @@ makeCacheMatrix <- function(x = matrix()) {
   
   setmatrix<- function(y){
     x<<-y
-    invmatrix<<-NULL
+    invmatrix<<-NULL  #set invserse matrix  null when the matrix is being initialized
   }
   ##get matrix function
   getmatrix<-function() x
